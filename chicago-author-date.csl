@@ -67,6 +67,12 @@
       <term name="timestamp">at</term>
       <term form="verb-short" name="translator">trans.</term>
     </terms>
+    <macro name="date-issued-month-day">
+      <date variable="issued">
+        <date-part name="month"/>
+        <date-part name="day" prefix=" "/>
+      </date>
+    </macro>
   </locale>
   <locale xml:lang="en-GB">
     <terms>
@@ -84,6 +90,46 @@
         <multiple>eds and trans.</multiple>
       </term>
     </terms>
+  </locale>
+  <locale xml:lang="ca">
+    <macro name="date-issued-month-day">
+      <date variable="issued">
+        <date-part name="day" suffix=" de "/>
+        <date-part name="month"/>
+      </date>
+    </macro>
+  </locale>
+  <locale xml:lang="es">
+    <macro name="date-issued-month-day">
+      <date variable="issued">
+        <date-part name="day" suffix=" de "/>
+        <date-part name="month"/>
+      </date>
+    </macro>
+  </locale>
+  <locale xml:lang="pt">
+    <macro name="date-issued-month-day">
+      <date variable="issued">
+        <date-part name="day" suffix=" de "/>
+        <date-part name="month"/>
+      </date>
+    </macro>
+  </locale>
+  <locale xml:lang="fr">
+    <macro name="date-issued-month-day">
+      <date variable="issued">
+        <date-part name="day" suffix=" "/>
+        <date-part name="month"/>
+      </date>
+    </macro>
+  </locale>
+  <locale xml:lang="it">
+    <macro name="date-issued-month-day">
+      <date variable="issued">
+        <date-part name="day" suffix=" "/>
+        <date-part name="month"/>
+      </date>
+    </macro>
   </locale>
   <!-- Contents:
     
